@@ -88,12 +88,13 @@ Very simple Scripts
 	</verb></tscreen>
 	<P>
 	<P> This script has only two lines.
-        The first indicates the system which program
+        The first indicates to the system which program
         to use to run the file.
         <P> The second line is the only action performed by this script,
         which prints 'Hello World' on the terminal.
 	<P> If you get something like <it>./hello.sh: Command not found.</it>
-	Probably the first line '#!/bin/bash' is wrong, issue whereis bash or see
+	Probably the first line '#!/bin/bash' is wrong, try entering "whereis 
+	bash" at the command prompt or see
 	'finding bash' to see how should you write this line.
     </sect1>
     <sect1>
